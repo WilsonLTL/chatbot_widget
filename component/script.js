@@ -9,7 +9,7 @@ let chatWindow = new Bubbles(document.getElementById("chat"), "chatWindow", {
     // this function does no natural language processing
     // this is where you may want to connect this script to NLC backend.
     inputCallbackFn: function(o) {
-        let testing_reply = ["第1個選項"]
+        let testing_reply = []
 
         let reply_message = {
             "msg":{
