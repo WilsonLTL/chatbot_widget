@@ -6,7 +6,7 @@
 ```
 1. Modify the NLP Url link:
    script.js -> function nlp (line 40) -> url ="..."
-   script.js -> function nlp (line 40) -> axios chang to "GET" (Option)
+   script.js -> function nlp (line 40) -> axios change to "GET" (Optional)
    script.js -> function nlp (line 40) -> "data" (for my own Nlp only,can be delete)
 2. Modify the icon the the bot:
    index.html -> line 26 -> src="..."
@@ -60,4 +60,4 @@ The basic setting css, should be no need to modify in 99%.
 The main JS of bubble control, should not modify it in most time.
 
 #### script.js
-The JS to identify user input and connect to nlp, for even front end control, please modify in this page
+The JS to identify user input and connect to nlp, for any front end control, please modify in this page
