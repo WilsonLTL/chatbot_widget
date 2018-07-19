@@ -51,6 +51,9 @@ let chatWindow = new Bubbles(document.getElementById("chat"), "chatWindow", {
 
                 if (result["Success"]===true && result["Speech"] !== ""){
                     reply_message.msg.says.push(result["Speech"])
+                    if (result["Url"] !== ""){
+                        reply_message.msg.says.push("<img src="+result["url"]+" />")
+                    }
                 }else{
                     reply_message.msg.says.push("唔好意思,我唔係好明你講咩","(⋟﹏⋞)")
                 }

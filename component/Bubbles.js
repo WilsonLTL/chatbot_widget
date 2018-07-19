@@ -167,6 +167,7 @@ function Bubbles(container, self, options) {
         console.log("key:",key)
         console.log("content:",content)
         var func = function(key) {
+            console.log("Function:",typeof window[key])
             typeof window[key] === "function" ? window[key]() : false
         }
         _convo[key] !== undefined
@@ -174,6 +175,7 @@ function Bubbles(container, self, options) {
             : func(key)
 
         // add re-generated user picks to the history stack
+        console.log("_convo[key]:",_convo[key])
         if (_convo[key] !== undefined && content !== undefined) {
             interactionsSave(
                 '<span class="bubble-button reply-pick">' + content + "</span>",
