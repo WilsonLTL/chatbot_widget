@@ -6,41 +6,32 @@
   <title>Live chat widget</title>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-  <link rel="stylesheet" href="../component/styles/input.css">
-  <link rel="stylesheet" href="../component/styles/reply.css">
-  <link rel="stylesheet" href="../component/styles/says.css">
-  <link rel="stylesheet" href="../component/styles/setup.css">
-  <link rel="stylesheet" href="../component/styles/typing.css">
-  <link rel="stylesheet" href="../component/styles/frame.css">
+  <link rel="stylesheet" href="css/frame.css">
 </head>
 
 <body>
 
   <div class="chat-widget-wrapper">
-  <div class="chat-widget-container">
-    <!--<div class="chat-widget-text">-->
-      <!--<p class="heading">LIVE CHAT</p>-->
-      <!--<p>How can we help?</p>-->
-    <!--</div>-->
-    <div class="chat-widget-avatar">
-      <img style="max-width:100%;max-height:100%;" src="https://avatarfiles.alphacoders.com/114/114404.png" alt=""/>
+    <div class="chat-widget-container">
+      <div class="chat-widget-avatar">
+        <img style="max-width:100%;max-height:100%;" src="https://avatarfiles.alphacoders.com/114/114404.png" alt=""/>
+      </div>
+    </div>
+    <div class="chat-box-container">
+      <div class="chat-box-nav">
+        <!--Tthe nav bar, enter something here for title if you want-->
+      </div>
+      <div id="chat" class="chat-box-content">
+      </div>
     </div>
   </div>
-  <div class="chat-box-container">
-    <div class="chat-box-nav">
-
-    </div>
-    <div id="chat" class="chat-box-content">
-    </div>
-  </div>
-</div>
 
 </body>
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-<script  src="js/index.js"></script>
-<script src="../component/Bubbles.js"></script>
-<script src="../component/script.js"></script>
+<script src="js/config.js"></script>
+<script src="js/Bubbles.js"></script>
+<script src="js/script.js"></script>
 
 </html>

@@ -5,13 +5,17 @@
 ## Setup
 ```
 1. Modify the NLP Url link:
-   script.js -> function nlp (line 40) -> url ="..."
+   config.js -> url = "..."
+   config.js -> data = {...} -> delete it (If you not using my NLP)
    script.js -> function nlp (line 40) -> axios change to "GET" (Optional)
-   script.js -> function nlp (line 40) -> "data" (for my own Nlp only,can be delete)
 2. Modify the icon the the bot:
-   index.html -> line 26 -> src="..."
+   index.html -> line 17 -> src="..."
    PS1: about the size of the image, modify the style
    PS2: If you want to modify the css of the icon, please view frame.css -> chat-widget-avatar
+3. Modify the config setting:
+   config.js -> nlp_noresponse_msg = "..." -> the default msg when can't identify
+   config.js -> default_reply_msg = "..." -> answer must be "ice"
+   config.js -> convo = {...} -> "ice" be the home msg, reply_message is no need to modify
 ```
 
 ## Data Json Format(Nlp):
@@ -32,7 +36,8 @@
     ],
     "Score": 1,
     "Speech": "SPEECH_RESULT",
-    "Url": "IMAGE_URL",
+    "ImageURL": "IMAGE_URL",
+    "Reply":["REPLY_MSG1","REPLY_MSG2"],
     "Success": true,
     "Threshold": 0.6
 }
@@ -40,6 +45,8 @@
 
 ## Source Code:
 ### CSS:
+All css is include in frame, so just need to call frame.css in html
+
 #### frame.css:
 The main css of the bot UI, including the icon, live chat widget.
 
@@ -56,6 +63,9 @@ The main css of the bubble of saying and reply(replay base on say.css).
 The basic setting css, should be no need to modify in 99%.
 
 ### JS:
+#### config.js
+The config JS of the system, modify it follow by the Setup
+
 #### Bubbles.js
 The main JS of bubble control, should not modify it in most time.
 

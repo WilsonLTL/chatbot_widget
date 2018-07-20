@@ -10,10 +10,47 @@ function Bubbles(container, self, options) {
     inputCallbackFn = options.inputCallbackFn || false // should we display an input field?
 
     var standingAnswer = "ice" // remember where to restart convo if interrupted
-
+    var user_input = ""
     var _convo = {} // local memory for conversation JSON object
     //--> NOTE that this object is only assigned once, per session and does not change for this
     // 		constructor name during open session.
+
+    var nlp_say = function(text) {
+        data.text=text
+        return Promise.resolve(
+            axios.post(url,data).then(function (res) {
+                result = res.data
+                if (result["Success"]===true && result["Speech"] !== ""){
+                    return result["Speech"]
+                }else{
+                    return nlp_noresponse_msg
+                }
+            }, function (error) {
+                console.log(error)
+                return nlp_noresponse_msg
+            })
+        )
+    }
+
+    var nlp_reply = function(text) {
+        data.text=text
+        return Promise.resolve(
+            axios.post(url,data).then(function (res) {
+                result = res.data
+                console.log(result)
+
+                if (result["Success"]===true && result["Speech"] !== ""){
+                    console.log(result["Reply"])
+                    return result["Reply"]
+                }else{
+                    return []
+                }
+            }, function (error) {
+                console.log(error)
+                return []
+            })
+        )
+    }
 
     // local storage for recalling conversations upon restart
     var localStorageCheck = function() {
@@ -131,7 +168,8 @@ function Bubbles(container, self, options) {
     }
 
     var iceBreaker = false // this variable holds answer to whether this is the initative bot interaction or not
-    this.reply = function(turn) {
+    this.reply = function(turn,content) {
+        console.log("Reply user input:",content)
         iceBreaker = typeof turn === "undefined"
         turn = !iceBreaker ? turn : _convo.ice
         questionsHTML = ""
@@ -139,7 +177,8 @@ function Bubbles(container, self, options) {
         if (turn.reply !== undefined) {
             turn.reply.reverse()
             for (var i = 0; i < turn.reply.length; i++) {
-                ;(function(el, count) {
+                (function(el, count) {
+                    console.log("Reply in box:",el.question)
                     questionsHTML +=
                         '<span class="bubble-button" style="animation-delay: ' +
                         animationTime / 2 * count +
@@ -164,24 +203,21 @@ function Bubbles(container, self, options) {
     }
     // navigate "answers"
     this.answer = function(key, content) {
-        console.log("key:",key)
-        console.log("content:",content)
-        var func = function(key) {
-            console.log("Function:",typeof window[key])
-            typeof window[key] === "function" ? window[key]() : false
-        }
-        _convo[key] !== undefined
-            ? (this.reply(_convo[key]), (standingAnswer = key))
-            : func(key)
-
-        // add re-generated user picks to the history stack
-        console.log("_convo[key]:",_convo[key])
-        if (_convo[key] !== undefined && content !== undefined) {
-            interactionsSave(
-                '<span class="bubble-button reply-pick">' + content + "</span>",
-                "reply reply-pick"
-            )
-            console.log("Finish")
+        result_reply = []
+        user_input = content
+        if (key !== "reply_message"){
+            this.buildAnswer(key,content)
+        }else{
+            nlp_reply(user_input)
+                .then((reply)=>{
+                    reply.forEach(function (data) {
+                        result_reply.push({"question":data,"answer":"reply_message"})
+                    })
+                    result_reply.push({"question":"返回主頁","answer":"ice"})
+                    _convo[key]["reply"] = result_reply
+                    console.log("_convo[key]",_convo[key])
+                    this.buildAnswer(key,content)
+                })
         }
     }
 
@@ -190,6 +226,25 @@ function Bubbles(container, self, options) {
         bubbleTyping.classList.remove("imagine")
         this.stop = function() {
             bubbleTyping.classList.add("imagine")
+        }
+    }
+
+    this.buildAnswer = function(key, content) {
+        var func = function(key) {
+            console.log("Function:",typeof window[key])
+            typeof window[key] === "function" ? window[key]() : false
+        }
+        _convo[key] !== undefined
+            ? (this.reply(_convo[key],content), (standingAnswer = key))
+            : func(key)
+
+        // add re-generated user picks to the history stack
+        if (_convo[key] !== undefined && content !== undefined) {
+            interactionsSave(
+                '<span class="bubble-button reply-pick">' + content + "</span>",
+                "reply reply-pick"
+            )
+            console.log("Finish")
         }
     }
 
@@ -215,9 +270,7 @@ function Bubbles(container, self, options) {
         start()
     }
 
-    // create a bubble
-    var bubbleQueue = false
-    var addBubble = function(say, posted, reply, live) {
+    var buildBubble = function(say, posted, reply, live) {
         reply = typeof reply !== "undefined" ? reply : ""
         live = typeof live !== "undefined" ? live : true // bubbles that are not "live" are not animated and displayed differently
         var animationTime = live ? this.animationTime : 0
@@ -294,6 +347,19 @@ function Bubbles(container, self, options) {
             }
             setTimeout(scrollBubbles, animationTime / 2)
         }, wait + animationTime * 2)
+    }
+
+    // create a bubble
+    var bubbleQueue = false
+    var addBubble = function(say, posted, reply, live) {
+        if (user_input !== "返回主頁" && user_input !== "" && reply !=="reply"){
+            nlp_say(user_input)
+                .then((say)=>{
+                    buildBubble(say, posted, reply, live)
+                })
+        }else{
+            buildBubble(say, posted, reply, live)
+        }
     }
 
     // recall previous interactions
