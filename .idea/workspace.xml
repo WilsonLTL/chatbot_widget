@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31143be7-4e95-4ffa-bf2d-bc971e34f35d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/Bubbles.js" beforeDir="false" afterPath="$PROJECT_DIR$/live-chat-widget/js/Bubbles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/live-chat-widget/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/styles/frame.css" beforeDir="false" afterPath="$PROJECT_DIR$/live-chat-widget/css/frame.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/styles/input.css" beforeDir="false" afterPath="$PROJECT_DIR$/live-chat-widget/css/input.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/styles/reply.css" beforeDir="false" afterPath="$PROJECT_DIR$/live-chat-widget/css/reply.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/styles/says.css" beforeDir="false" afterPath="$PROJECT_DIR$/live-chat-widget/css/says.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/styles/setup.css" beforeDir="false" afterPath="$PROJECT_DIR$/live-chat-widget/css/setup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/styles/typing.css" beforeDir="false" afterPath="$PROJECT_DIR$/live-chat-widget/css/typing.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/live-chat-widget/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/live-chat-widget/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/live-chat-widget/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/live-chat-widget/js/index.js" beforeDir="false" />
-    </list>
+    <list default="true" id="31143be7-4e95-4ffa-bf2d-bc971e34f35d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -41,8 +27,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="990">
-                <caret line="66" column="58" selection-start-line="66" selection-start-column="58" selection-end-line="66" selection-end-column="58" />
+              <first_editor relative-caret-position="585">
+                <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
               </first_editor>
               <second_editor />
             </state>
@@ -165,23 +151,6 @@
               <item name="front_end_chatbot_plugin" type="b2602c69:ProjectViewProjectNode" />
               <item name="front_end_chatbot_plugin" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="front_end_chatbot_plugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="front_end_chatbot_plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="live-chat-widget" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="front_end_chatbot_plugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="front_end_chatbot_plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="live-chat-widget" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="front_end_chatbot_plugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="front_end_chatbot_plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="live-chat-widget" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -232,18 +201,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531969530787</updated>
-      <workItem from="1531969532122" duration="22729000" />
+      <workItem from="1531969532122" duration="22960000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22729000" />
+    <option name="totallyTimeSpent" value="22960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="845" y="23" width="810" height="982" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20785804" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20785804" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5012563" side_tool="true" weight="0.1822376" />
@@ -251,7 +219,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.4987437" weight="0.18181819" />
+      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.4987437" visible="true" weight="0.18181819" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -402,8 +370,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="990">
-            <caret line="66" column="58" selection-start-line="66" selection-start-column="58" selection-end-line="66" selection-end-column="58" />
+          <first_editor relative-caret-position="585">
+            <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
           </first_editor>
           <second_editor />
         </state>

@@ -1,6 +1,6 @@
 # front_end_chatbot_plugin 
 
- A easiest chatbot plugin in your front-end website base on chat-bubble
+ A easiest chatbot plugin for your front-end website base on chat-bubble
  
 ## Setup
 ```
