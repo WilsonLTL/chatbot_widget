@@ -18,7 +18,7 @@
    config.js -> convo = {...} -> "ice" be the home msg, reply_message is no need to modify
 ```
 
-## Data Json Format(Nlp):
+## Data Json Format(NLP):
 ```json
 {
     "Agent": "AGENT_NAME",
@@ -43,31 +43,31 @@
 }
 ```
 
-## Source Code:
-### CSS:
+## Source Code (CSS):
 All css is include in frame, so just need to call frame.css in html
 
-#### frame.css:
+### frame.css:
 The main css of the bot UI, including the icon, live chat widget.
 
-#### input.css:
+### input.css:
 The css of the bubble display, textarea.
 
-#### reply.css
+### reply.css
 The css of the user reply bubble, it relate to say.css, so before modify it, please also take a look of say.css too.
 
-#### say.css
+### say.css
 The main css of the bubble of saying and reply(replay base on say.css).
 
-#### setup.css,typing.css
+### setup.css,typing.css
 The basic setting css, should be no need to modify in 99%.
 
-### JS:
-#### config.js
+## Source Code (JS):
+
+### config.js
 The config JS of the system, modify it follow by the Setup
 
 #### Bubbles.js
 The main JS of bubble control, should not modify it in most time.
 
-#### script.js
+### script.js
 The JS to identify user input and connect to nlp, for any front end control, please modify in this page
