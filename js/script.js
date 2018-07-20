@@ -25,8 +25,6 @@ let chatWindow = new Bubbles(document.getElementById("chat"), "chatWindow", {
     // this is where you may want to connect this script to NLC backend.
     inputCallbackFn: function(o) {
 
-        let testing_reply = ["test1","test2"]
-
         let reply_message = {
             "msg":{
                 says:[],
@@ -51,19 +49,13 @@ let chatWindow = new Bubbles(document.getElementById("chat"), "chatWindow", {
                     result["Reply"].forEach(function (data) {
                         reply_message.msg.reply.push({
                             question: data,
-                            answer: "reply_message"
+                            answer: "ice"
                         })
                     })
-                    console.log("push reply:",result["Reply"])
+                    console.log("push reply:",reply_message.msg.reply)
                 }else{
                     reply_message.msg.says.push(nlp_noresponse_msg)
                 }
-                // testing_reply.forEach(function (data) {
-                //     reply_message.msg.reply.push({
-                //         question: data,
-                //         answer: ""
-                //     })
-                // })
                 chatWindow.talk(reply_message,"msg")
             }, function (error) {
                 console.log(error)

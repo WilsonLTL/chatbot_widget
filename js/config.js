@@ -13,17 +13,13 @@ let default_reply_msg = {
     answer: "ice"
 }
 
+
 let convo = {
     ice: {
         says: ["Hello,請問有咩幫到你(´･ω･`)?"],
         reply: [
             {
-                question: "幾時出爐?",
-                answer: "reply_message"
-            },
-            {
-                question: "你哋公司地址喺邊度?",
-                answer: "reply_message"
+                question: "幾時出爐",answer: "reply_message"
             }
         ]
     },

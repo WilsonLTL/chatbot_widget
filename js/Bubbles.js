@@ -126,11 +126,18 @@ function Bubbles(container, self, options) {
                 !lastBubble.classList.contains("reply-freeform")
                     ? lastBubble.classList.add("bubble-hidden")
                     : false
+                console.log("calling:",this.value)
+                // addBubble(
+                //     '<span class="bubble-button bubble-pick">' + this.value + "</span>",
+                //     function() {},
+                //     "reply reply-freeform"
+                // )
                 addBubble(
                     '<span class="bubble-button bubble-pick">' + this.value + "</span>",
                     function() {},
-                    "reply reply-freeform"
+                    "reply"
                 )
+
                 // callback
                 typeof callbackFn === "function"
                     ? callbackFn({
