@@ -41,7 +41,7 @@ let chatWindow = new Bubbles(document.getElementById("chat"), "chatWindow", {
                 result = res.data
                 console.log(result)
 
-                if (result["Success"]===true && result["Speech"] !== ""){
+                if (result["Speech"] !== ""){
                     reply_message.msg.says.push(result["Speech"])
                     if (result["ImageURL"] !== ""){
                         reply_message.msg.says.push("<img src="+result["ImageURL"]+" />")
@@ -49,7 +49,7 @@ let chatWindow = new Bubbles(document.getElementById("chat"), "chatWindow", {
                     result["Reply"].forEach(function (data) {
                         reply_message.msg.reply.push({
                             question: data,
-                            answer: "ice"
+                            answer: "reply_message"
                         })
                     })
                     console.log("push reply:",reply_message.msg.reply)

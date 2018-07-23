@@ -1,6 +1,6 @@
-let url = "http://127.0.0.1:8080/sub_agent"
+let url = "http://192.168.0.134:5000/adapter_en"
 
-let nlp_noresponse_msg = "唔好意思,我唔係好明你講咩 <br >(⋟﹏⋞)"
+let nlp_noresponse_msg = "Sorry, i don't understand <br >(⋟﹏⋞)"
 
 let data = {
     "system_id":12312,
@@ -9,25 +9,23 @@ let data = {
 }
 
 let default_reply_msg = {
-    question: "返回主頁",
+    question: "Home",
     answer: "ice"
 }
 
-
 let convo = {
     ice: {
-        says: ["Hello,請問有咩幫到你(´･ω･`)?"],
+        says: ["Hello,what can i help you?"],
         reply: [
             {
-                question: "幾時出爐",answer: "reply_message"
-            }
-        ]
+                question: "something",answer: "reply_message"
+            }]
     },
     reply_message: {
         says: ["<img src=http://nextews.com/images/84/b6/84b62bfa6fa90e97.jpg />"],
         reply: [
             {
-                question: "返回主頁",
+                question: "Home",
                 answer: "ice"
             }
         ]

@@ -30,7 +30,7 @@
     "Result": [
         {
             "Intent": "INTENT_NAME",
-            "Source": 1,
+            "Score": 1,
             "phrase": "TRAINING_PHRASE"
         }
     ],

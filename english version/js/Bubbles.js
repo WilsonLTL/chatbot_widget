@@ -20,11 +20,17 @@ function Bubbles(container, self, options) {
         return Promise.resolve(
             axios.post(url,data).then(function (res) {
                 result = res.data
-                if (result["Success"]===true && result["Speech"] !== ""){
+                // if (result["Success"]===true && result["Speech"] !== ""){
+                //     return result["Speech"]
+                // }else{
+                //     return nlp_noresponse_msg
+                // }
+                if (result["Speech"] !== ""){
                     return result["Speech"]
                 }else{
                     return nlp_noresponse_msg
                 }
+
             }, function (error) {
                 console.log(error)
                 return nlp_noresponse_msg
@@ -113,8 +119,26 @@ function Bubbles(container, self, options) {
         var inputWrap = document.createElement("div")
         inputWrap.className = "input-wrap"
         var inputText = document.createElement("textarea")
+        var submitButton = document.createElement("button")
+        var buttonImage = document.createElement("img")
+        submitButton.setAttribute("id","enterText")
+        submitButton.setAttribute("style","margin:0px 0px 10px 0px; width:45px;height:55px;background-color:white;border-radius:10px;border: .1px solid #DCDCDC;box-shadow:2px 2px 1px 1px rgba(20%,20%,40%,0.5);")
+        buttonImage.setAttribute("src","./image/send.png")
+        buttonImage.setAttribute("style","width:100%;height:70%;")
         inputText.setAttribute("placeholder", "Ask me anything...")
+        inputText.setAttribute("style","margin:10px 10px -10px 10px")
+        inputText.setAttribute("id","inputTextArea")
+        submitButton.appendChild(buttonImage)
+        submitButton.addEventListener("click", function(e) {
+            console.log("click")
+            $('#input').trigger(
+                jQuery.Event( 'keypress', { keyCode: 13, which: 13} )
+            );
+        })
+
+
         inputWrap.appendChild(inputText)
+        inputWrap.appendChild(submitButton)
         inputText.addEventListener("keypress", function(e) {
             // register user input
             if (e.keyCode == 13) {
@@ -220,7 +244,7 @@ function Bubbles(container, self, options) {
                     reply.forEach(function (data) {
                         result_reply.push({"question":data,"answer":"reply_message"})
                     })
-                    result_reply.push({"question":"返回主頁","answer":"ice"})
+                    result_reply.push({"question":"Home","answer":"ice"})
                     _convo[key]["reply"] = result_reply
                     console.log("_convo[key]",_convo[key])
                     this.buildAnswer(key,content)
@@ -359,9 +383,10 @@ function Bubbles(container, self, options) {
     // create a bubble
     var bubbleQueue = false
     var addBubble = function(say, posted, reply, live) {
-        if (user_input !== "返回主頁" && user_input !== "" && reply !=="reply"){
+        if (user_input !== "Home" && user_input !== "" && reply !=="reply"){
             nlp_say(user_input)
                 .then((say)=>{
+                    console.log("say:",say)
                     buildBubble(say, posted, reply, live)
                 })
         }else{
