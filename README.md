@@ -8,6 +8,7 @@
    config.js -> url = "..."
    config.js -> data = {...} -> delete it (If you not using my NLP)
    script.js -> function nlp (line 40) -> axios change to "GET" (Optional)
+   Bubble.js -> function nlp_say,nlp_reply -> axios change to "GET" (Optional)
 2. Modify the icon the the bot:
    index.html -> line 17 -> src="..."
    PS1: about the size of the image, modify the style

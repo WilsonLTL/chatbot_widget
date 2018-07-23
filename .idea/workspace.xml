@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31143be7-4e95-4ffa-bf2d-bc971e34f35d" name="Default" comment="" />
+    <list default="true" id="31143be7-4e95-4ffa-bf2d-bc971e34f35d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -19,6 +22,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="150">
+                <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -55,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bubbles.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Bubbles.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chinese version/js/Bubbles.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-738">
+            <state relative-caret-position="209">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
@@ -129,7 +144,6 @@
         <option value="$PROJECT_DIR$/live-chat-widget/js/script.js" />
         <option value="$PROJECT_DIR$/live-chat-widget/js/config.js" />
         <option value="$PROJECT_DIR$/live-chat-widget/css/frame.css" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/css/reply.css" />
         <option value="$PROJECT_DIR$/css/says.css" />
         <option value="$PROJECT_DIR$/css/input.css" />
@@ -139,6 +153,7 @@
         <option value="$PROJECT_DIR$/chinese version/js/config.js" />
         <option value="$PROJECT_DIR$/english version/js/Bubbles.js" />
         <option value="$PROJECT_DIR$/english version/js/config.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -151,7 +166,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="811" />
     <option name="y" value="25" />
     <option name="width" value="797" />
@@ -257,17 +272,18 @@
       <workItem from="1531969532122" duration="23631000" />
       <workItem from="1532062772524" duration="8000" />
       <workItem from="1532062792171" duration="6000" />
-      <workItem from="1532062806598" duration="18391000" />
+      <workItem from="1532062806598" duration="18527000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42036000" />
+    <option name="totallyTimeSpent" value="42172000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="811" y="25" width="797" height="981" extended-state="1" />
+    <frame x="811" y="25" width="797" height="981" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2113402" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2113402" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5012563" side_tool="true" weight="0.1822376" />
@@ -275,7 +291,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4987437" visible="true" weight="0.18099548" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4987437" visible="true" weight="0.18099548" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -472,16 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="270">
-            <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image/next.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -555,11 +561,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chinese version/js/Bubbles.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-738">
+        <state relative-caret-position="209">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
