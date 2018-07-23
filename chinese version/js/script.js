@@ -41,12 +41,13 @@ let chatWindow = new Bubbles(document.getElementById("chat"), "chatWindow", {
             axios.post(url,data).then(function (res) {
                 result = res.data
                 console.log(result)
-
+                return_say = ""
                 if (result["Speech"] !== ""){
-                    reply_message.msg.says.push(result["Speech"])
+                    return_say = result["Speech"]
                     if (result["ImageURL"] !== ""){
-                        reply_message.msg.says.push("<img src="+result["ImageURL"]+" />")
+                        return_say += "<br ><img style='width:100%;height:100%;margin: 10px 0px 0px 0px;' src="+result["ImageURL"]+"/>"
                     }
+                    reply_message.msg.says.push(return_say)
                     result["Reply"].forEach(function (data) {
                         reply_message.msg.reply.push({
                             question: data,

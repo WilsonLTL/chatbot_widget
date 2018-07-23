@@ -26,6 +26,9 @@ function Bubbles(container, self, options) {
                 //     return nlp_noresponse_msg
                 // }
                 if (result["Speech"] !== ""){
+                    if (result["ImageURL"] !== ""){
+                        return result["Speech"]+"<br ><img style='width:100%;height:100%;margin: 10px 0px 0px 0px;' src="+result["ImageURL"]+"/>"
+                    }
                     return result["Speech"]
                 }else{
                     return nlp_noresponse_msg
