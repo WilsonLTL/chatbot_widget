@@ -45,7 +45,7 @@ function Bubbles(container, self, options) {
                 result = res.data
                 console.log(result)
 
-                if (result["Success"]===true && result["Speech"] !== ""){
+                if (result["Speech"] !== ""){
                     console.log(result["Reply"])
                     return result["Reply"]
                 }else{
@@ -190,11 +190,12 @@ function Bubbles(container, self, options) {
     bubbleWrap.appendChild(bubbleTyping)
 
     // accept JSON & create bubbles
-    this.talk = function(convo, here) {
+    this.talk = function(convo, here, user_input) {
+        console.log("talk in console:",user_input)
         // all further .talk() calls will append the conversation with additional blocks defined in convo parameter
         _convo = Object.assign(_convo, convo) // POLYFILL REQUIRED FOR OLDER BROWSERS
 
-        this.reply(_convo[here])
+        this.reply(_convo[here],user_input)
         here ? (standingAnswer = here) : false
     }
 
@@ -227,14 +228,17 @@ function Bubbles(container, self, options) {
         }
         orderBubbles(turn.says, function() {
             bubbleTyping.classList.remove("imagine")
+            console.log("questionsHTML",questionsHTML)
             questionsHTML !== ""
                 ? addBubble(questionsHTML, function() {}, "reply")
+
                 : bubbleTyping.classList.add("imagine")
         })
     }
     // navigate "answers"
     this.answer = function(key, content) {
         result_reply = []
+        console.log("content userinput:",content)
         user_input = content
         if (key !== "reply_message"){
             this.buildAnswer(key,content)
@@ -244,7 +248,7 @@ function Bubbles(container, self, options) {
                     reply.forEach(function (data) {
                         result_reply.push({"question":data,"answer":"reply_message"})
                     })
-                    result_reply.push({"question":"返回主頁","answer":"ice"})
+                    result_reply.push(default_reply_msg)
                     _convo[key]["reply"] = result_reply
                     console.log("_convo[key]",_convo[key])
                     this.buildAnswer(key,content)
@@ -383,7 +387,18 @@ function Bubbles(container, self, options) {
     // create a bubble
     var bubbleQueue = false
     var addBubble = function(say, posted, reply, live) {
-        if (user_input !== "返回主頁" && user_input !== "" && reply !=="reply"){
+        console.log("addBubble say : user_input",say,":",user_input)
+
+        if (say === default_home_msg){
+            console.log("User select button",user_input)
+        }else if (say.startsWith("<span")) {
+            console.log("<span> button")
+        }else{
+            user_input=say
+        }
+
+        //check the word throw to nlp is not  default_home_msg,nlp_noresponse_msg and reply is not reply
+        if (user_input !== default_reply_msg.question && user_input !== "" && user_input !== default_home_msg && user_input !== nlp_noresponse_msg && user_input !== say && reply !=="reply"){
             nlp_say(user_input)
                 .then((say)=>{
                     console.log("say:",say)

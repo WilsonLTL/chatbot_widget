@@ -36,6 +36,7 @@ let chatWindow = new Bubbles(document.getElementById("chat"), "chatWindow", {
 
         // connect ti nlp server
         let nlp = function(text) {
+            console.log("text in script.js:",text)
             data.text=text
             axios.post(url,data).then(function (res) {
                 result = res.data
@@ -56,7 +57,7 @@ let chatWindow = new Bubbles(document.getElementById("chat"), "chatWindow", {
                 }else{
                     reply_message.msg.says.push(nlp_noresponse_msg)
                 }
-                chatWindow.talk(reply_message,"msg")
+                chatWindow.talk(reply_message,"msg",text)
             }, function (error) {
                 console.log(error)
             })

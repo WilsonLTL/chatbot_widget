@@ -2,6 +2,8 @@ let url = "http://192.168.0.134:5000/adapter_cn"
 
 let nlp_noresponse_msg = "唔好意思,我唔係好明你講咩 <br >(⋟﹏⋞)"
 
+let default_home_msg = "Hello,請問有咩幫到你(´･ω･`)?"
+
 let data = {
     "system_id":12312,
     "agent_id":"26yjP",
@@ -16,7 +18,7 @@ let default_reply_msg = {
 
 let convo = {
     ice: {
-        says: ["Hello,請問有咩幫到你(´･ω･`)?"],
+        says: [default_home_msg],
         reply: [
             {
                 question: "魚柳包餐跟薯條",answer: "reply_message"
@@ -27,7 +29,7 @@ let convo = {
             ]
     },
     reply_message: {
-        says: ["<img src=http://nextews.com/images/84/b6/84b62bfa6fa90e97.jpg />"],
+        says: [default_home_msg],
         reply: [
             {
                 question: "返回主頁",
