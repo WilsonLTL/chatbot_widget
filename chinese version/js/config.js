@@ -19,8 +19,12 @@ let convo = {
         says: ["Hello,請問有咩幫到你(´･ω･`)?"],
         reply: [
             {
-                question: "幾時出爐",answer: "reply_message"
-            }]
+                question: "魚柳包餐跟薯條",answer: "reply_message"
+            },
+            {
+                question: "add more reply in config.js",answer: "reply_message"
+            }
+            ]
     },
     reply_message: {
         says: ["<img src=http://nextews.com/images/84/b6/84b62bfa6fa90e97.jpg />"],
