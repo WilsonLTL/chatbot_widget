@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31143be7-4e95-4ffa-bf2d-bc971e34f35d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/chinese version/js/Bubbles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chinese version/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english version/css/frame.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english version/css/input.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english version/css/reply.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english version/css/says.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english version/css/setup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english version/css/typing.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english version/image/send.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english version/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/english version/js/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/frame.css" beforeDir="false" afterPath="$PROJECT_DIR$/chinese version/css/frame.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/input.css" beforeDir="false" afterPath="$PROJECT_DIR$/chinese version/css/input.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/reply.css" beforeDir="false" afterPath="$PROJECT_DIR$/chinese version/css/reply.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/says.css" beforeDir="false" afterPath="$PROJECT_DIR$/chinese version/css/says.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/setup.css" beforeDir="false" afterPath="$PROJECT_DIR$/chinese version/css/setup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/typing.css" beforeDir="false" afterPath="$PROJECT_DIR$/chinese version/css/typing.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/chinese version/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/Bubbles.js" beforeDir="false" afterPath="$PROJECT_DIR$/english version/js/Bubbles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/chinese version/js/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/english version/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/license.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="31143be7-4e95-4ffa-bf2d-bc971e34f35d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -62,8 +37,8 @@
       <file leaf-file-name="Bubbles.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/english version/js/Bubbles.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="383" column="27" lean-forward="true" selection-start-line="383" selection-start-column="27" selection-end-line="383" selection-end-column="27" />
+            <state relative-caret-position="1530">
+              <caret line="102" column="5" lean-forward="true" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
               </folding>
@@ -80,11 +55,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Bubbles.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chinese version/js/Bubbles.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-738">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/english version/js/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="255">
+              <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -164,7 +151,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="811" />
     <option name="y" value="25" />
     <option name="width" value="797" />
@@ -270,18 +257,17 @@
       <workItem from="1531969532122" duration="23631000" />
       <workItem from="1532062772524" duration="8000" />
       <workItem from="1532062792171" duration="6000" />
-      <workItem from="1532062806598" duration="17708000" />
+      <workItem from="1532062806598" duration="18391000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41353000" />
+    <option name="totallyTimeSpent" value="42036000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="811" y="25" width="797" height="981" extended-state="0" />
-    <editor active="true" />
+    <frame x="811" y="25" width="797" height="981" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2113402" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2113402" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5012563" side_tool="true" weight="0.1822376" />
@@ -289,7 +275,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4987437" weight="0.18099548" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4987437" visible="true" weight="0.18099548" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -506,16 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chinese version/js/Bubbles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/english version/css/says.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -553,10 +529,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/english version/js/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/english version/js/Bubbles.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="383" column="27" lean-forward="true" selection-start-line="383" selection-start-column="27" selection-end-line="383" selection-end-column="27" />
+        <state relative-caret-position="1530">
+          <caret line="102" column="5" lean-forward="true" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
           <folding>
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
           </folding>
@@ -570,10 +553,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/english version/js/config.js">
+    <entry file="file://$PROJECT_DIR$/chinese version/js/Bubbles.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="-738">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
