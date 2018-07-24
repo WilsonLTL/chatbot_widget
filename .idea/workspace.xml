@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31143be7-4e95-4ffa-bf2d-bc971e34f35d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chinese version/css/frame.css" beforeDir="false" afterPath="$PROJECT_DIR$/chinese version/css/frame.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chinese version/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/chinese version/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/english version/js/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/english version/js/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinese version/js/Bubbles.js" beforeDir="false" afterPath="$PROJECT_DIR$/chinese version/js/Bubbles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/english version/css/frame.css" beforeDir="false" afterPath="$PROJECT_DIR$/english version/css/frame.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/english version/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/english version/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/english version/js/Bubbles.js" beforeDir="false" afterPath="$PROJECT_DIR$/english version/js/Bubbles.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,46 +21,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chinese version/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+            <state>
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="270">
-                <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="frame.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chinese version/css/frame.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="73" column="21" lean-forward="true" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/english version/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,8 +36,17 @@
       <file leaf-file-name="Bubbles.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chinese version/js/Bubbles.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-973">
-              <caret line="48" column="35" lean-forward="true" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+            <state relative-caret-position="2490">
+              <caret line="166" column="9" selection-start-line="166" selection-start-column="9" selection-end-line="166" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bubbles.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/english version/js/Bubbles.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="467">
+              <caret line="168" column="8" selection-start-line="168" selection-start-column="8" selection-end-line="168" selection-end-column="8" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
@@ -76,23 +55,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chinese version/js/script.js">
+      <file leaf-file-name="frame.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/english version/css/frame.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="46" column="30" lean-forward="true" selection-end-line="97" selection-end-column="22" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="419">
+              <caret line="84" column="24" lean-forward="true" selection-end-line="94" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/english version/js/config.js">
+      <file leaf-file-name="frame.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chinese version/css/frame.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="629">
+              <caret line="94" column="1" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -136,6 +112,7 @@
       <find>chat-widget-wrapper</find>
       <find>chat-widget-container</find>
       <find>chat-box-container</find>
+      <find>key</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -164,13 +141,17 @@
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/chinese version/js/config.js" />
-        <option value="$PROJECT_DIR$/chinese version/js/Bubbles.js" />
         <option value="$PROJECT_DIR$/chinese version/js/script.js" />
         <option value="$PROJECT_DIR$/english version/js/script.js" />
-        <option value="$PROJECT_DIR$/english version/js/Bubbles.js" />
         <option value="$PROJECT_DIR$/english version/js/config.js" />
-        <option value="$PROJECT_DIR$/chinese version/css/frame.css" />
+        <option value="$PROJECT_DIR$/particles-js-demo/js/index.js" />
+        <option value="$PROJECT_DIR$/particles-js-demo/index.html" />
+        <option value="$PROJECT_DIR$/english version/index.html" />
         <option value="$PROJECT_DIR$/chinese version/index.html" />
+        <option value="$PROJECT_DIR$/chinese version/js/Bubbles.js" />
+        <option value="$PROJECT_DIR$/english version/js/Bubbles.js" />
+        <option value="$PROJECT_DIR$/english version/css/frame.css" />
+        <option value="$PROJECT_DIR$/chinese version/css/frame.css" />
       </list>
     </option>
   </component>
@@ -218,12 +199,30 @@
               <item name="front_end_chatbot_plugin" type="b2602c69:ProjectViewProjectNode" />
               <item name="front_end_chatbot_plugin" type="462c0819:PsiDirectoryNode" />
               <item name="chinese version" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="front_end_chatbot_plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="front_end_chatbot_plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="english version" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="front_end_chatbot_plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="front_end_chatbot_plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="english version" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="front_end_chatbot_plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="front_end_chatbot_plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="english version" type="462c0819:PsiDirectoryNode" />
               <item name="image" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="front_end_chatbot_plugin" type="b2602c69:ProjectViewProjectNode" />
               <item name="front_end_chatbot_plugin" type="462c0819:PsiDirectoryNode" />
               <item name="english version" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -240,13 +239,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chinese version/js" />
+      <recent name="$PROJECT_DIR$/chinese version/css" />
+      <recent name="$PROJECT_DIR$/english version/image" />
       <recent name="$PROJECT_DIR$/english version" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/chinese version/image" />
       <recent name="$PROJECT_DIR$/chinese version" />
       <recent name="$PROJECT_DIR$/image" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/live-chat-widget/css" />
     </key>
   </component>
@@ -262,17 +264,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
     <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/front_end_chatbot_plugin/english version/index.html" />
+    <configuration name="index.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/front_end_chatbot_plugin/particles-js-demo/index.html" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/front_end_chatbot_plugin/chinese version/index.html" />
     <list>
       <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="JavaScript Debug.index.html (1)" />
+      <item itemvalue="JavaScript Debug.index.html (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index.html (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -289,12 +294,13 @@
       <workItem from="1531969532122" duration="23631000" />
       <workItem from="1532062772524" duration="8000" />
       <workItem from="1532062792171" duration="6000" />
-      <workItem from="1532062806598" duration="29618000" />
+      <workItem from="1532062806598" duration="34211000" />
+      <workItem from="1532406639101" duration="655000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53263000" />
+    <option name="totallyTimeSpent" value="58511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="851" y="23" width="757" height="981" extended-state="0" />
@@ -304,19 +310,19 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5012563" side_tool="true" weight="0.1822376" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3280543" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4987437" visible="true" weight="0.18099548" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3280543" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,6 +337,17 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/english version/js/Bubbles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2520">
+          <caret line="168" column="8" selection-start-line="168" selection-start-column="8" selection-end-line="168" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chinese version/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -359,10 +376,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5310">
           <caret line="354" selection-start-line="354" selection-end-line="354" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -370,9 +383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="38" column="25" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -512,9 +522,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image/next.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/image/next.png" />
     <entry file="file://$PROJECT_DIR$/english version/css/says.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -540,20 +548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="46" column="30" lean-forward="true" selection-end-line="97" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/english version/js/Bubbles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="459" column="1" selection-start-line="459" selection-start-column="1" selection-end-line="459" selection-end-column="1" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -561,20 +555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chinese version/js/Bubbles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-973">
-          <caret line="48" column="35" lean-forward="true" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -588,13 +568,6 @@
     <entry file="file://$PROJECT_DIR$/chinese version/image/Background.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/chinese version/css/frame.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="73" column="21" lean-forward="true" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -605,13 +578,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/english version/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chinese version/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/particles-js-demo/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/chinese version/js/index.js" />
+    <entry file="file://$PROJECT_DIR$/particles-js-demo/js/index.js" />
     <entry file="file://$PROJECT_DIR$/chinese version/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+        <state>
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/particles-js-demo/index.html" />
+    <entry file="file://$PROJECT_DIR$/chinese version/js/Bubbles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2490">
+          <caret line="166" column="9" selection-start-line="166" selection-start-column="9" selection-end-line="166" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/english version/js/Bubbles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="168" column="8" selection-start-line="168" selection-start-column="8" selection-end-line="168" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/english version/css/frame.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="84" column="24" lean-forward="true" selection-end-line="94" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chinese version/css/frame.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="94" column="1" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
         </state>
       </provider>
     </entry>

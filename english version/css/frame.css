@@ -67,6 +67,7 @@ p {
     width: 400px;
     height: 0;
     background-color: #f1f1f1;
+    /*background-image: url("../image/Background.jpg");*/
     bottom: 10px;
     border-top-right-radius: 4px;
     border-top-left-radius: 4px;

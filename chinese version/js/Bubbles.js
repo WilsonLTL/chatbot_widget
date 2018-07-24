@@ -133,12 +133,38 @@ function Bubbles(container, self, options) {
         inputText.setAttribute("id","inputTextArea")
         submitButton.appendChild(buttonImage)
         submitButton.addEventListener("click", function(e) {
-            console.log("click")
-            $('#input').trigger(
-                jQuery.Event( 'keypress', { keyCode: 13, which: 13} )
-            );
-        })
+            let value = inputText.value
 
+            e.preventDefault()
+            typeof bubbleQueue !== false ? clearTimeout(bubbleQueue) : false // allow user to interrupt the bot
+            var lastBubble = document.querySelectorAll(".bubble.say")
+            lastBubble = lastBubble[lastBubble.length - 1]
+            lastBubble.classList.contains("reply") &&
+            !lastBubble.classList.contains("reply-freeform")
+                ? lastBubble.classList.add("bubble-hidden")
+                : false
+            console.log("calling:",value)
+            // addBubble(
+            //     '<span class="bubble-button bubble-pick">' + this.value + "</span>",
+            //     function() {},
+            //     "reply reply-freeform"
+            // )
+            addBubble(
+                '<span class="bubble-button bubble-pick">' + value + "</span>",
+                function() {},
+                "reply"
+            )
+
+            // callback
+            typeof callbackFn === "function"
+                ? callbackFn({
+                    input: value,
+                    convo: _convo,
+                    standingAnswer: standingAnswer
+                })
+                : false
+            inputText.value = ""
+        })
 
         inputWrap.appendChild(inputText)
         inputWrap.appendChild(submitButton)
