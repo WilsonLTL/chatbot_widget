@@ -20,7 +20,9 @@ let convo = {
         says: ["Hello,what can i help you?"],
         reply: [
             {
-                question: "something",answer: "reply_message"
+                question: "Reset password",answer: "reply_message"
+            },{
+                question: "What is GLSHK",answer: "reply_message"
             }]
     },
     reply_message: {
