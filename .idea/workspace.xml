@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="31143be7-4e95-4ffa-bf2d-bc971e34f35d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chinese version/js/Bubbles.js" beforeDir="false" afterPath="$PROJECT_DIR$/chinese version/js/Bubbles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chinese version/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/chinese version/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/english version/js/Bubbles.js" beforeDir="false" afterPath="$PROJECT_DIR$/english version/js/Bubbles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/english version/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/english version/js/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -78,23 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/english version/js/config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
               <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bubbles.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/english version/js/Bubbles.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
-              <caret line="459" column="1" selection-start-line="459" selection-start-column="1" selection-end-line="459" selection-end-column="1" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -133,8 +117,8 @@
       <find>user_input</find>
       <find>Reply in box</find>
       <find>same</find>
-      <find>nlp_reply</find>
       <find>nlp_say</find>
+      <find>nlp_reply</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -286,18 +270,18 @@
       <workItem from="1531969532122" duration="23631000" />
       <workItem from="1532062772524" duration="8000" />
       <workItem from="1532062792171" duration="6000" />
-      <workItem from="1532062806598" duration="28074000" />
+      <workItem from="1532062806598" duration="28469000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51719000" />
+    <option name="totallyTimeSpent" value="52114000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="851" y="23" width="757" height="981" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27038044" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27038044" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5012563" side_tool="true" weight="0.1822376" />
@@ -305,7 +289,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4987437" visible="true" weight="0.18099548" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4987437" visible="true" weight="0.18099548" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -554,13 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/english version/js/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chinese version/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -597,8 +574,16 @@
         <state relative-caret-position="603">
           <caret line="459" column="1" selection-start-line="459" selection-start-column="1" selection-end-line="459" selection-end-column="1" />
           <folding>
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/english version/js/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
         </state>
       </provider>
     </entry>
