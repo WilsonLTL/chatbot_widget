@@ -19,6 +19,8 @@
    config.js -> convo = {...} -> "ice" be the home msg, reply_message is no need to modify
 4. Modify background of chatbot widget:
    frame.css -> .chat-box-container -> background-image
+5. Start Server:
+   cd /home/ubuntu/chatbot_widget/demo_version -> sudo npm install http-server -g -> http-server
 ```
 
 ## Data Json Format(NLP):
