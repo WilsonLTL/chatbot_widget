@@ -17,6 +17,8 @@
    config.js -> nlp_noresponse_msg = "..." -> the default msg when can't identify
    config.js -> default_reply_msg = "..." -> answer must be "ice"
    config.js -> convo = {...} -> "ice" be the home msg, reply_message is no need to modify
+4. Modify background of chatbot widget:
+   frame.css -> .chat-box-container -> background-image
 ```
 
 ## Data Json Format(NLP):
