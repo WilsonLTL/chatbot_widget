@@ -5,7 +5,7 @@
 ## Setup
 ```
 1. Modify the NLP Url link:
-   config.js -> url = "..."
+   config.js -> url = "..." 
    config.js -> data = {...} -> delete it (If you not using my NLP)
    script.js -> function nlp (line 40) -> axios change to "GET" (Optional)
    Bubble.js -> function nlp_say,nlp_reply -> axios change to "GET" (Optional)
@@ -76,3 +76,5 @@ The main JS of bubble control, should not modify it in most time.
 
 ### script.js
 The JS to identify user input and connect to nlp, for any front end control, please modify in this page
+
+Prepare connect to front end panel
