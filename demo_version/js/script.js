@@ -38,7 +38,7 @@ let chatWindow = new Bubbles(document.getElementById("chat"), "chatWindow", {
         let nlp = function(text) {
             console.log("text in script.js:",text)
             data.text=text
-            axios.post(url,data).then(function (res) {
+            axios.get(url+text).then(function (res) {
                 result = res.data
                 console.log(result)
                 return_say = ""
@@ -48,12 +48,12 @@ let chatWindow = new Bubbles(document.getElementById("chat"), "chatWindow", {
                         return_say += "<br ><img style='width:100%;height:100%;margin: 10px 0px 0px 0px;' src="+result["ImageURL"]+"/>"
                     }
                     reply_message.msg.says.push(return_say)
-                    result["Reply"].forEach(function (data) {
-                        reply_message.msg.reply.push({
-                            question: data,
-                            answer: "reply_message"
-                        })
-                    })
+                    // result["Reply"].forEach(function (data) {
+                    //     reply_message.msg.reply.push({
+                    //         question: data,
+                    //         answer: "reply_message"
+                    //     })
+                    // })
                     console.log("push reply:",reply_message.msg.reply)
                 }else{
                     reply_message.msg.says.push(nlp_noresponse_msg)

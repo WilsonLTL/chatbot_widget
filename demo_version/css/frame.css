@@ -93,6 +93,7 @@ p {
     /*border-top-left-radius: 10px;*/
     /*border-top-right-radius: 10px;*/
 }
+
 .chat-box-container .chat-box-nav {
     /*background-color: #00aeef;*/
     font-family: "Helvetica Neue", Helvetica, sans-serif;
@@ -103,3 +104,43 @@ p {
     width: 100%;
     height: 40px;
 }
+@media only screen and (max-device-width:240px){
+    .chat-widget-wrapper {
+        margin:10px;
+        zoom: 200%;
+    }
+    .chat-box-container{
+        width: 100%;
+    }
+}
+@media only screen and (max-device-width : 340px){
+    .chat-widget-wrapper {
+        margin:10px;
+        zoom: 220%;
+    }
+    .chat-box-container{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-device-width : 440px){
+    .chat-widget-wrapper {
+        margin:10px;
+        zoom: 230%;
+    }
+    .chat-box-container{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-device-width : 540px){
+    .chat-widget-wrapper {
+        margin:10px;
+        zoom: 240%;
+    }
+    .chat-box-container{
+        width: 100%;
+    }
+}
+
+

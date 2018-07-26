@@ -18,7 +18,7 @@ function Bubbles(container, self, options) {
     var nlp_say = function(text) {
         data.text=text
         return Promise.resolve(
-            axios.post(url,data).then(function (res) {
+            axios.get(url+text).then(function (res) {
                 result = res.data
                 // if (result["Success"]===true && result["Speech"] !== ""){
                 //     return result["Speech"]
@@ -44,7 +44,7 @@ function Bubbles(container, self, options) {
     var nlp_reply = function(text) {
         data.text=text
         return Promise.resolve(
-            axios.post(url,data).then(function (res) {
+            axios.get(url+text).then(function (res) {
                 result = res.data
                 console.log(result)
 
@@ -274,9 +274,9 @@ function Bubbles(container, self, options) {
         }else{
             nlp_reply(user_input)
                 .then((reply)=>{
-                    reply.forEach(function (data) {
-                        result_reply.push({"question":data,"answer":"reply_message"})
-                    })
+                    // reply.forEach(function (data) {
+                    //     result_reply.push({"question":data,"answer":"reply_message"})
+                    // })
                     _convo[key]["reply"] = result_reply
                     console.log("_convo[key]",_convo[key])
                     this.buildAnswer(key,content)
