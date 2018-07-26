@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="31143be7-4e95-4ffa-bf2d-bc971e34f35d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/demo_version/css/frame.css" beforeDir="false" afterPath="$PROJECT_DIR$/demo_version/css/frame.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_version/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo_version/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_version/js/Bubbles.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo_version/js/Bubbles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_version/js/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo_version/js/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_version/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo_version/js/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -75,8 +71,8 @@
       <file leaf-file-name="frame.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo_version/css/frame.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="103" column="10" selection-start-line="103" selection-start-column="10" selection-end-line="103" selection-end-column="10" />
+            <state relative-caret-position="304">
+              <caret line="128" column="9" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -326,18 +322,18 @@
       <workItem from="1532062772524" duration="8000" />
       <workItem from="1532062792171" duration="6000" />
       <workItem from="1532062806598" duration="34211000" />
-      <workItem from="1532406639101" duration="26108000" />
+      <workItem from="1532406639101" duration="26609000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83964000" />
+    <option name="totallyTimeSpent" value="84465000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="863" y="23" width="807" height="981" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25318065" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25318065" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5054348" side_tool="true" weight="0.22171946" />
@@ -345,7 +341,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32918552" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49456522" weight="0.22146893" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49456522" visible="true" weight="0.22058824" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -657,8 +653,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo_version/css/frame.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="103" column="10" selection-start-line="103" selection-start-column="10" selection-end-line="103" selection-end-column="10" />
+        <state relative-caret-position="304">
+          <caret line="128" column="9" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="9" />
         </state>
       </provider>
     </entry>
