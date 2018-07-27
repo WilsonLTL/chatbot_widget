@@ -19,7 +19,7 @@
   transform-origin: left top;
   transition: all 200ms;
   box-sizing: content-box;
-  -webkit-text-size-adjust: 100%
+  -webkit-text-size-adjust: 190%
 }
 .bubble .bubble-content {
   transition: opacity 150ms;
@@ -57,6 +57,4 @@
 .bubble.history {
   opacity: .25;
 }
-@media only screen {
 
-}
