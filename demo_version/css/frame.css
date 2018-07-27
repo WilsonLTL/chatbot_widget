@@ -104,38 +104,123 @@ p {
     width: 100%;
     height: 40px;
 }
+
 @media only screen and (max-device-width:240px){
     .chat-widget-wrapper {
+        width: auto;
         zoom: 190%;
+        margin:0 auto;
+        padding :0;
+        height: 100%;
+        position: absolute; top: 0; left: 0;
     }
     .chat-box-container{
         width: 100%;
+    }
+    .chat-widget-container {
+        height: 100%;
+    }
+    .chat-widget-container.open{
+        height: 100%;
+        width: 0;
+        position: absolute; top: 0; left: 0;
+    }
+    .chat-widget-avatar {
+        bottom:20px;
+        top:auto;
+    }
+    .chat-box-container.show {
+        height:auto;
+        bottom:10px;
     }
 }
 @media only screen and (max-device-width : 340px){
     .chat-widget-wrapper {
-        zoom: 220%;
+        width: auto;
+        zoom: 210%;
+        margin:0 auto;
+        padding :0;
+        height: 100%;
+        position: absolute; top: 0; left: 0;
     }
     .chat-box-container{
         width: 100%;
+    }
+    .chat-widget-container {
+        height: 100%;
+    }
+    .chat-widget-container.open{
+        height: 100%;
+        width: 0;
+        position: absolute; top: 0; left: 0;
+    }
+    .chat-widget-avatar {
+        bottom:20px;
+        top:auto;
+    }
+    .chat-box-container.show {
+        height:auto;
+        bottom:10px;
     }
 }
 
 @media only screen and (max-device-width : 440px){
     .chat-widget-wrapper {
-        zoom: 230%;
+        width: auto;
+        zoom: 220%;
+        margin:0 auto;
+        padding :0;
+        height: 100%;
+        position: absolute; top: 0; left: 0;
     }
     .chat-box-container{
         width: 100%;
+    }
+    .chat-widget-container {
+        height: 100%;
+    }
+    .chat-widget-container.open{
+        height: 100%;
+        width: 0;
+        position: absolute; top: 0; left: 0;
+    }
+    .chat-widget-avatar {
+        bottom:20px;
+        top:auto;
+    }
+    .chat-box-container.show {
+        height:auto;
+        bottom:10px;
     }
 }
 
 @media only screen and (max-device-width : 540px){
     .chat-widget-wrapper {
-        zoom: 240%;
+        width: auto;
+        zoom: 230%;
+        margin:0 auto;
+        padding :0;
+        height: 100%;
+        position: absolute; top: 0; left: 0;
     }
     .chat-box-container{
         width: 100%;
+    }
+    .chat-widget-container {
+        height: 100%;
+    }
+    .chat-widget-container.open{
+        height: 0;
+        width: 0;
+        position: absolute; top: 0; left: 0;
+    }
+    .chat-widget-avatar {
+        bottom:20px;
+        top:auto;
+    }
+    .chat-box-container.show {
+        height:auto;
+        bottom:10px;
     }
 }
 
