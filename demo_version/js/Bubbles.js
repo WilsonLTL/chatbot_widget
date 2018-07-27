@@ -125,7 +125,7 @@ function Bubbles(container, self, options) {
         var submitButton = document.createElement("button")
         var buttonImage = document.createElement("img")
         submitButton.setAttribute("id","enterText")
-        submitButton.setAttribute("style","margin:0px 0px 10px 0px; width:45px;height:55px;background-color:white;border-radius:10px;border: .1px solid #DCDCDC;box-shadow:2px 2px 1px 1px rgba(20%,20%,40%,0.5);")
+        submitButton.setAttribute("style","margin:0px 0px 10px 0px; width:calc(0% + 50px);height:55px;background-color:white;border-radius:10px;border: .1px solid #DCDCDC;box-shadow:2px 2px 1px 1px rgba(20%,20%,40%,0.5);")
         buttonImage.setAttribute("src","./image/send.png")
         buttonImage.setAttribute("style","width:100%;height:70%;")
         inputText.setAttribute("placeholder", "Ask me anything...")
