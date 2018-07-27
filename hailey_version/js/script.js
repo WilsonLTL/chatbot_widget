@@ -2,7 +2,8 @@
 // ...and add text processing plugin:
 
 $(function() {
-    var chatWidget = (".chat-widget-container"),
+
+    let chatWidget = (".chat-widget-container"),
         chatBox = $(".chat-box-container");
 
     $(chatWidget).click(function(e){

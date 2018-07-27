@@ -1,4 +1,4 @@
-let url = "http://ec2-13-250-42-135.ap-southeast-1.compute.amazonaws.com/GLSHK?Key=0bb18fb84259c567c723ba96188f47ac&AgentID=7&Location=127.0.0.1&Say="
+let url =""
 
 let nlp_noresponse_msg = "Sorry, i don't understand <br >(⋟﹏⋞)"
 
@@ -37,3 +37,4 @@ let convo = {
         ]
     }
 }
+

@@ -2,7 +2,11 @@
 // ...and add text processing plugin:
 
 $(function() {
-    var chatWidget = (".chat-widget-container"),
+    axios.get("https://api.ipify.org?format=json").then(function (res) {
+        url = "http://ec2-13-250-42-135.ap-southeast-1.compute.amazonaws.com/GLSHK?Key=0bb18fb84259c567c723ba96188f47ac&AgentID=7&Location="+res.data.ip+"&Say="
+    })
+
+    let chatWidget = (".chat-widget-container"),
         chatBox = $(".chat-box-container");
 
     $(chatWidget).click(function(e){
@@ -12,7 +16,6 @@ $(function() {
         $(chatBox).toggleClass("show");
         $(chatWidget).toggleClass("open");
     })
-
 });
 
 let chatWindow = new Bubbles(document.getElementById("chat"), "chatWindow", {
