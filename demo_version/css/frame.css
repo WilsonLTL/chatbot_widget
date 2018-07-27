@@ -128,7 +128,7 @@ p {
 /*}*/
 @media only screen and (max-device-width:240px){
     .chat-widget-wrapper {
-        zoom: 200%;
+        zoom: 190%;
     }
     .chat-box-container{
         width: 100%;
