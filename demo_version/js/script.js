@@ -7,7 +7,8 @@ $(function() {
     })
 
     let chatWidget = (".chat-widget-container"),
-        chatBox = $(".chat-box-container");
+        chatBox = $(".chat-box-container"),
+        back = $("#back");
 
     $(chatWidget).click(function(e){
 
@@ -15,6 +16,10 @@ $(function() {
 
         $(chatBox).toggleClass("show");
         $(chatWidget).toggleClass("open");
+    })
+
+    $(back).click(function(e){
+        $(chatWidget).click()
     })
 });
 

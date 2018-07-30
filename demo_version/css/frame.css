@@ -110,15 +110,16 @@ p {
         width: auto;
         zoom: 190%;
         margin:0 auto;
+        height: 0;
         padding :0;
-        height: 100%;
-        position: absolute; top: 0; left: 0;
+        position: absolute;
+        left: 0;
     }
     .chat-box-container{
         width: 100%;
     }
     .chat-widget-container {
-        height: 100%;
+        position: unset;
     }
     .chat-widget-container.open{
         height: 100%;
@@ -132,22 +133,23 @@ p {
     .chat-box-container.show {
         height:auto;
         bottom:10px;
-    }
+    }s
 }
 @media only screen and (max-device-width : 340px){
     .chat-widget-wrapper {
         width: auto;
         zoom: 210%;
         margin:0 auto;
+        height: 0;
         padding :0;
-        height: 100%;
-        position: absolute; top: 0; left: 0;
+        position: absolute;
+        left: 0;
     }
     .chat-box-container{
         width: 100%;
     }
     .chat-widget-container {
-        height: 100%;
+        position: unset;
     }
     .chat-widget-container.open{
         height: 100%;
@@ -169,15 +171,16 @@ p {
         width: auto;
         zoom: 220%;
         margin:0 auto;
+        height: 0;
         padding :0;
-        height: 100%;
-        position: absolute; top: 0; left: 0;
+        position: absolute;
+        left: 0;
     }
     .chat-box-container{
         width: 100%;
     }
     .chat-widget-container {
-        height: 100%;
+        position: unset;
     }
     .chat-widget-container.open{
         height: 100%;
@@ -199,15 +202,16 @@ p {
         width: auto;
         zoom: 230%;
         margin:0 auto;
+        height: 0;
         padding :0;
-        height: 100%;
-        position: absolute; top: 0; left: 0;
+        position: absolute;
+        left: 0;
     }
     .chat-box-container{
         width: 100%;
     }
     .chat-widget-container {
-        height: 100%;
+        position: unset;
     }
     .chat-widget-container.open{
         height: 0;
