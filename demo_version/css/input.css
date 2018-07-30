@@ -20,7 +20,7 @@
 	border: none;
 	padding: 10px 15px;
 	outline: none;
-	box-shadow: 2px 2px 1px 1px rgba(20%,20%,40%,0.5) ;
+	box-shadow: 2px 2px 1px 1px rgba(20%,20%,40%,0.5);
 	line-height: 1.25em;
 }
 .bubble.reply-freeform {

@@ -27,6 +27,9 @@
 .bubble:not(.say) .bubble-content {
   opacity: 0;
 }
+.bubble.say .bubble-content {
+  font-size: 17px;
+}
 .bubble-typing.imagine,
 .bubble.imagine {
   transform: scale(0);
