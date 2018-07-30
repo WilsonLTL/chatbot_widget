@@ -14,12 +14,12 @@
   max-width: 55%;
   float: none;
   clear: both;
-  line-height: 1.4em;
+  line-height: 1.3em;
   word-break: break-word;
   transform-origin: left top;
   transition: all 200ms;
   box-sizing: content-box;
-  -webkit-text-size-adjust: 200%;
+  -webkit-text-size-adjust: 300%;
 }
 .bubble .bubble-content {
   transition: opacity 150ms;
