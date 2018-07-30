@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31143be7-4e95-4ffa-bf2d-bc971e34f35d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_version/css/frame.css" beforeDir="false" afterPath="$PROJECT_DIR$/demo_version/css/frame.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_version/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo_version/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_version/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo_version/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_version/css/says.css" beforeDir="false" afterPath="$PROJECT_DIR$/demo_version/css/says.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -59,11 +56,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="frame.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="frame.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo_version/css/frame.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="203" column="8" selection-start-line="203" selection-start-column="8" selection-end-line="203" selection-end-column="8" />
+            <state relative-caret-position="481">
+              <caret line="198" lean-forward="true" selection-start-line="198" selection-end-line="198" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reply.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo_version/css/reply.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="105" column="38" selection-start-line="105" selection-start-column="38" selection-end-line="105" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="says.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo_version/css/says.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -81,7 +96,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>convo</find>
       <find>Reply user input</find>
       <find>testing_reply</find>
       <find>reply reply-freeform</find>
@@ -111,6 +125,7 @@
       <find>chat-widget-avatar</find>
       <find>chat-widget-container</find>
       <find>chatWidget</find>
+      <find>-webkit</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -163,11 +178,11 @@
         <option value="$PROJECT_DIR$/demo_version/js/config.js" />
         <option value="$PROJECT_DIR$/demo_version/chat-widget.html" />
         <option value="$PROJECT_DIR$/demo_version/js/Bubbles.js" />
-        <option value="$PROJECT_DIR$/demo_version/css/says.css" />
         <option value="$PROJECT_DIR$/hailey_version/index.html" />
         <option value="$PROJECT_DIR$/demo_version/index.html" />
         <option value="$PROJECT_DIR$/demo_version/js/script.js" />
         <option value="$PROJECT_DIR$/demo_version/css/frame.css" />
+        <option value="$PROJECT_DIR$/demo_version/css/says.css" />
       </list>
     </option>
   </component>
@@ -299,25 +314,25 @@
       <workItem from="1532406639101" duration="29933000" />
       <workItem from="1532657173259" duration="8957000" />
       <workItem from="1532677054138" duration="9825000" />
-      <workItem from="1532916471955" duration="3459000" />
+      <workItem from="1532916471955" duration="4270000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110030000" />
+    <option name="totallyTimeSpent" value="110841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="868" y="23" width="802" height="981" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25480154" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25480154" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5054348" side_tool="true" weight="0.22171946" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32918552" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49456522" visible="true" weight="0.2239819" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49456522" visible="true" weight="0.2239819" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39976957" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -561,20 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo_version/css/reply.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="82" column="19" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_version/css/says.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hailey_version/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -618,8 +619,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo_version/css/frame.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="203" column="8" selection-start-line="203" selection-start-column="8" selection-end-line="203" selection-end-column="8" />
+        <state relative-caret-position="481">
+          <caret line="198" lean-forward="true" selection-start-line="198" selection-end-line="198" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_version/css/reply.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="105" column="38" selection-start-line="105" selection-start-column="38" selection-end-line="105" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_version/css/says.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
         </state>
       </provider>
     </entry>

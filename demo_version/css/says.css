@@ -8,7 +8,7 @@
   font-weight: 400;
   text-transform: none;
   text-align: left;
-  font-size: 16px;
+  font-size: 17px;
   letter-spacing: .5px;
   margin: 0 0 2px 0;
   max-width: 55%;
@@ -19,7 +19,7 @@
   transform-origin: left top;
   transition: all 200ms;
   box-sizing: content-box;
-  -webkit-text-size-adjust: 100%
+  -moz-text-size-adjust: none;
 }
 .bubble .bubble-content {
   transition: opacity 150ms;
