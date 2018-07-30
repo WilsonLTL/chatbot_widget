@@ -19,7 +19,6 @@
   transform-origin: left top;
   transition: all 200ms;
   box-sizing: content-box;
-  -webkit-text-size-adjust: 200%;
 }
 .bubble .bubble-content {
   transition: opacity 150ms;
@@ -28,7 +27,9 @@
   opacity: 0;
 }
 .bubble.say .bubble-content {
-  font-size: 8px;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 17px;
+  -webkit-text-size-adjust: 150%;
 }
 .bubble-typing.imagine,
 .bubble.imagine {

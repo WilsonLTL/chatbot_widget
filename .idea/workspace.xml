@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31143be7-4e95-4ffa-bf2d-bc971e34f35d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo_version/css/says.css" beforeDir="false" afterPath="$PROJECT_DIR$/demo_version/css/says.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -60,15 +61,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="input.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo_version/css/input.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="138" column="18" selection-start-line="138" selection-start-column="18" selection-end-line="138" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="reply.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo_version/css/reply.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -81,8 +73,8 @@
       <file leaf-file-name="says.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo_version/css/says.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+            <state relative-caret-position="411">
+              <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -90,8 +82,8 @@
       <file leaf-file-name="setup.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo_version/css/setup.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            <state relative-caret-position="435">
+              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -142,12 +134,12 @@
       <find>chat-widget-container</find>
       <find>font-weight:</find>
       <find>.bubble .say</find>
-      <find>chatWidget</find>
       <find>bubble-content</find>
       <find>font-size</find>
-      <find>family</find>
       <find>line</find>
+      <find>chatWidget</find>
       <find>-webkit-font</find>
+      <find>family</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -343,12 +335,12 @@
       <workItem from="1532406639101" duration="29933000" />
       <workItem from="1532657173259" duration="8957000" />
       <workItem from="1532677054138" duration="9825000" />
-      <workItem from="1532916471955" duration="9804000" />
+      <workItem from="1532916471955" duration="10104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116375000" />
+    <option name="totallyTimeSpent" value="116675000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="868" y="23" width="802" height="981" extended-state="0" />
@@ -624,24 +616,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo_version/css/setup.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo_version/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
           <caret line="32" column="6" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_version/css/frame.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2887">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -652,6 +630,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo_version/css/frame.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2887">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo_version/css/reply.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
@@ -659,10 +644,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo_version/css/setup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo_version/css/says.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        <state relative-caret-position="411">
+          <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
         </state>
       </provider>
     </entry>
