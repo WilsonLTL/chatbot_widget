@@ -1,29 +1,4 @@
-// initialize by constructing a named function...
-// ...and add text processing plugin:
-
-$(function() {
-
-    let chatWidget = (".chat-widget-container"),
-        chatBox = $(".chat-box-container");
-
-    $(chatWidget).click(function(e){
-
-        e.preventDefault();
-
-        $(chatBox).toggleClass("show");
-        $(chatWidget).toggleClass("open");
-    })
-
-});
-
 let chatWindow = new Bubbles(document.getElementById("chat"), "chatWindow", {
-    // the one that we care about is inputCallbackFn()
-    // this function returns an object with some data that we can process from user input
-    // and understand the context of it
-
-    // this is an example function that matches the text user typed to one of the answer bubbles
-    // this function does no natural language processing
-    // this is where you may want to connect this script to NLC backend.
     inputCallbackFn: function(o) {
 
         let reply_message = {
@@ -33,9 +8,6 @@ let chatWindow = new Bubbles(document.getElementById("chat"), "chatWindow", {
             }
         }
 
-        // add error conversation block & recall it if no answer matched
-
-        // connect ti nlp server
         let nlp = function(text) {
             console.log("text in script.js:",text)
             data.text=text
@@ -49,12 +21,6 @@ let chatWindow = new Bubbles(document.getElementById("chat"), "chatWindow", {
                         return_say += "<br ><img style='width:100%;height:100%;margin: 10px 0px 0px 0px;' src="+result["ImageURL"]+"/>"
                     }
                     reply_message.msg.says.push(return_say)
-                    // result["Reply"].forEach(function (data) {
-                    //     reply_message.msg.reply.push({
-                    //         question: data,
-                    //         answer: "reply_message"
-                    //     })
-                    // })
                     console.log("push reply:",reply_message.msg.reply)
                 }else{
                     reply_message.msg.says.push(nlp_noresponse_msg)
@@ -89,11 +55,5 @@ let chatWindow = new Bubbles(document.getElementById("chat"), "chatWindow", {
         found ? match(found) : nlp(o.input)
         // found ? match(found) : miss()
     }
-}) // done setting up chat-bubble
-
-// conversation object defined separately, but just the same as in the
-// "Basic chat-bubble Example" (1-basics.html)
-
-
-// pass JSON to your function and you're done!
+})
 chatWindow.talk(convo)
