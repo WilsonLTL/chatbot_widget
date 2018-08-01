@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31143be7-4e95-4ffa-bf2d-bc971e34f35d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_version/js/Bubbles.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo_version/js/Bubbles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hailey_version/css/frame.css" beforeDir="false" afterPath="$PROJECT_DIR$/hailey_version/css/frame.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hailey_version/css/input.css" beforeDir="false" afterPath="$PROJECT_DIR$/hailey_version/css/input.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hailey_version/css/reply.css" beforeDir="false" afterPath="$PROJECT_DIR$/hailey_version/css/reply.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hailey_version/css/says.css" beforeDir="false" afterPath="$PROJECT_DIR$/hailey_version/css/says.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hailey_version/image/Background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hailey_version/image/send.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hailey_version/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hailey_version/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hailey_version/js/Bubbles.js" beforeDir="false" afterPath="$PROJECT_DIR$/hailey_version/js/Bubbles.js" afterDir="false" />
-    </list>
+    <list default="true" id="31143be7-4e95-4ffa-bf2d-bc971e34f35d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -54,8 +43,8 @@
       <file leaf-file-name="input.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hailey_version/css/input.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="136" column="19" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
+            <state relative-caret-position="60">
+              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -215,10 +204,10 @@
         <option value="$PROJECT_DIR$/hailey_version/css/says.css" />
         <option value="$PROJECT_DIR$/hailey_version/css/reply.css" />
         <option value="$PROJECT_DIR$/hailey_version/js/Bubbles.js" />
-        <option value="$PROJECT_DIR$/hailey_version/css/input.css" />
         <option value="$PROJECT_DIR$/hailey_version/index.html" />
         <option value="$PROJECT_DIR$/hailey_version/css/frame.css" />
         <option value="$PROJECT_DIR$/demo_version/js/Bubbles.js" />
+        <option value="$PROJECT_DIR$/hailey_version/css/input.css" />
       </list>
     </option>
   </component>
@@ -231,7 +220,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="855" />
     <option name="y" value="23" />
     <option name="width" value="798" />
@@ -255,18 +244,6 @@
               <item name="front_end_chatbot_plugin" type="b2602c69:ProjectViewProjectNode" />
               <item name="front_end_chatbot_plugin" type="462c0819:PsiDirectoryNode" />
               <item name="hailey_version" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="front_end_chatbot_plugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="front_end_chatbot_plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="hailey_version" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="front_end_chatbot_plugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="front_end_chatbot_plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="hailey_version" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="front_end_chatbot_plugin" type="b2602c69:ProjectViewProjectNode" />
@@ -359,26 +336,26 @@
       <workItem from="1532677054138" duration="9825000" />
       <workItem from="1532916471955" duration="14371000" />
       <workItem from="1533003065521" duration="1388000" />
-      <workItem from="1533005268409" duration="12695000" />
+      <workItem from="1533005268409" duration="15244000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135025000" />
+    <option name="totallyTimeSpent" value="137574000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="855" y="23" width="798" height="981" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25611326" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25611326" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5054348" side_tool="true" weight="0.22171946" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32718894" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32718894" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32918552" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49456522" weight="0.18548387" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49456522" visible="true" weight="0.18548387" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39932126" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -676,8 +653,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hailey_version/css/input.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="136" column="19" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
+        <state relative-caret-position="60">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
         </state>
       </provider>
     </entry>
