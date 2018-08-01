@@ -22,7 +22,7 @@
 }
 .bubble.reply .bubble-content .bubble-button {
   height :auto;
-  background: #8fc223;
+  background: #ecb82c;
   color: #fff;
   padding: 6px 14px;
   border-radius: 15px 15px 5px 5px;
@@ -78,7 +78,7 @@
 }
 .bubble.reply:not(.bubble-picked) .bubble-content .bubble-button:hover,
 .bubble.reply .bubble-content .bubble-button.bubble-pick {
-  background:  #8fc223;
+  background:  #edbf41;
   transform: scale(1) translate3d(0px, 0px, 0px);
   padding: 8px 16px;
   height: auto;
@@ -97,7 +97,7 @@
 }
 /* input fields for bubbles */
 .bubble .bubble-content input {
-  background:  #8fc223 !important;
+  background:  #ecb82c !important;
   box-shadow: 0 0px 1px 0px #000, 0 -1px 0 0px rgba(255, 255, 255, 0.38) inset;
   text-shadow: 0 1px rgba(0, 0, 0, 0.35);
   border: 0;

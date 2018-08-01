@@ -129,7 +129,6 @@ function Bubbles(container, self, options) {
         buttonImage.setAttribute("src","./image/send.png")
         buttonImage.setAttribute("style","width:100%;height:70%;")
         inputText.setAttribute("placeholder", "Ask me anything...")
-        inputText.setAttribute("style","margin:10px 10px -10px 10px")
         inputText.setAttribute("id","inputTextArea")
         submitButton.appendChild(buttonImage)
         submitButton.addEventListener("click", function(e) {
