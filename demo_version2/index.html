@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="UTF-8">
+    <title>Live chat widget</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="css/frame.css">
+</head>
+
+<body>
+<div class="chat-widget-wrapper">
+    <div  class="chat-widget-container">
+        <div class="chat-widget-avatar">
+            <img style="max-width:100%;max-height:100%;" src="image/Icon.png" alt=""/>
+        </div>
+    </div>
+    <div class="chat-box-container">
+        <div class="chat-box-nav">
+            <button id="back" type="button" style="background-color: transparent;border: none;margin: 5px;height:80%">
+                <img width="24" height="24" src="image/cross.png"/>
+            </button>
+            <label>Chat With Us</label>
+            <!--Tthe nav bar, enter something here for title if you want-->
+        </div>
+        <div>
+            <div id="chat" class="chat-box-content"  style="background-color: transparent;">
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="js/config.js"></script>
+<script src="js/Bubbles.js"></script>
+<script src="js/script.js"></script>
+
+</html>

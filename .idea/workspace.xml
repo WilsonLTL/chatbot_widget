@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31143be7-4e95-4ffa-bf2d-bc971e34f35d" name="Default" comment="" />
+    <list default="true" id="31143be7-4e95-4ffa-bf2d-bc971e34f35d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/demo_version2/css/frame.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_version2/css/input.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_version2/css/reply.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_version2/css/says.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_version2/css/setup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_version2/css/typing.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_version2/image/Background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_version2/image/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_version2/image/send.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_version2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_version2/js/Bubbles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_version2/js/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_version2/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_version/css/input.css" beforeDir="false" afterPath="$PROJECT_DIR$/demo_version/css/input.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_version/js/Bubbles.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo_version/js/Bubbles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_version/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo_version/js/script.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,94 +32,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo_version/js/script.js">
+      <file leaf-file-name="frame.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hailey_version/css/frame.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-155">
-              <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="319">
+              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bubbles.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo_version/js/Bubbles.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="127" column="50" selection-start-line="127" selection-start-column="50" selection-end-line="127" selection-end-column="50" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="input.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="input.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hailey_version/css/input.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            <state relative-caret-position="582">
+              <caret line="157" selection-start-line="157" selection-end-line="157" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hailey_version/index.html">
+      <file leaf-file-name="input.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo_version2/css/input.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            <state relative-caret-position="161">
+              <caret line="126" column="30" lean-forward="true" selection-start-line="126" selection-start-column="30" selection-end-line="126" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo_version2/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="frame.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hailey_version/css/frame.css">
+        <entry file="file://$PROJECT_DIR$/demo_version2/css/frame.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="106" column="16" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setup.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hailey_version/css/setup.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hailey_version/js/config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="149" selection-start-column="149" selection-end-column="149" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo_version/js/config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="input.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo_version/css/input.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+            <state relative-caret-position="1725">
+              <caret line="115" column="17" lean-forward="true" selection-start-line="115" selection-start-column="17" selection-end-line="115" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -119,8 +93,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.chat-widget-container.open</find>
-      <find>.chat-widget-wrapper</find>
       <find>font</find>
       <find>chat-widget-avatar</find>
       <find>-webkit</find>
@@ -145,10 +117,12 @@
       <find>::-webkit-input-placeholder</find>
       <find>input-wrap&quot;</find>
       <find>radius</find>
-      <find>ffe1</find>
-      <find>input-wrap</find>
-      <find>textarea</find>
       <find>te</find>
+      <find>input-wrape</find>
+      <find>textarea</find>
+      <find>ffe1</find>
+      <find>box-shadow</find>
+      <find>input-wrap</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -157,12 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/live-chat-widget/css/input.css" />
-        <option value="$PROJECT_DIR$/live-chat-widget/css/bubble.css" />
-        <option value="$PROJECT_DIR$/live-chat-widget/index.html" />
-        <option value="$PROJECT_DIR$/live-chat-widget/js/Bubbles.js" />
-        <option value="$PROJECT_DIR$/live-chat-widget/js/script.js" />
-        <option value="$PROJECT_DIR$/live-chat-widget/js/config.js" />
         <option value="$PROJECT_DIR$/live-chat-widget/css/frame.css" />
         <option value="$PROJECT_DIR$/css/reply.css" />
         <option value="$PROJECT_DIR$/css/says.css" />
@@ -195,19 +163,25 @@
         <option value="$PROJECT_DIR$/demo_version/chat-widget.html" />
         <option value="$PROJECT_DIR$/demo_version/css/frame.css" />
         <option value="$PROJECT_DIR$/demo_version/css/setup.css" />
-        <option value="$PROJECT_DIR$/demo_version/css/input.css" />
         <option value="$PROJECT_DIR$/demo_version/index.html" />
         <option value="$PROJECT_DIR$/demo_version/css/says.css" />
         <option value="$PROJECT_DIR$/hailey_version/js/script.js" />
         <option value="$PROJECT_DIR$/hailey_version/js/config.js" />
-        <option value="$PROJECT_DIR$/demo_version/js/script.js" />
         <option value="$PROJECT_DIR$/hailey_version/css/says.css" />
         <option value="$PROJECT_DIR$/hailey_version/css/reply.css" />
         <option value="$PROJECT_DIR$/hailey_version/js/Bubbles.js" />
         <option value="$PROJECT_DIR$/hailey_version/index.html" />
-        <option value="$PROJECT_DIR$/hailey_version/css/frame.css" />
-        <option value="$PROJECT_DIR$/demo_version/js/Bubbles.js" />
         <option value="$PROJECT_DIR$/hailey_version/css/input.css" />
+        <option value="$PROJECT_DIR$/demo_version/js/script.js" />
+        <option value="$PROJECT_DIR$/demo_version/js/Bubbles.js" />
+        <option value="$PROJECT_DIR$/demo_version/css/input.css" />
+        <option value="$PROJECT_DIR$/demo_version2/js/Bubbles.js" />
+        <option value="$PROJECT_DIR$/demo_version2/css/says.css" />
+        <option value="$PROJECT_DIR$/demo_version2/css/reply.css" />
+        <option value="$PROJECT_DIR$/hailey_version/css/frame.css" />
+        <option value="$PROJECT_DIR$/demo_version2/css/frame.css" />
+        <option value="$PROJECT_DIR$/demo_version2/css/input.css" />
+        <option value="$PROJECT_DIR$/demo_version2/index.html" />
       </list>
     </option>
   </component>
@@ -220,7 +194,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="855" />
     <option name="y" value="23" />
     <option name="width" value="798" />
@@ -243,7 +217,30 @@
             <path>
               <item name="front_end_chatbot_plugin" type="b2602c69:ProjectViewProjectNode" />
               <item name="front_end_chatbot_plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_version2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="front_end_chatbot_plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="front_end_chatbot_plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_version2" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="front_end_chatbot_plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="front_end_chatbot_plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_version2" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="front_end_chatbot_plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="front_end_chatbot_plugin" type="462c0819:PsiDirectoryNode" />
               <item name="hailey_version" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="front_end_chatbot_plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="front_end_chatbot_plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="hailey_version" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="front_end_chatbot_plugin" type="b2602c69:ProjectViewProjectNode" />
@@ -267,18 +264,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demo_version2/image" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/demo_version/image" />
       <recent name="$PROJECT_DIR$/hailey_version" />
       <recent name="$PROJECT_DIR$/ssh" />
-      <recent name="$PROJECT_DIR$/demo version/js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demo_version2/image" />
       <recent name="$PROJECT_DIR$/hailey_version/image" />
       <recent name="$PROJECT_DIR$/demo_version/image" />
       <recent name="$PROJECT_DIR$/demo version/image" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/chinese version/image" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -293,27 +290,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (3)">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/front_end_chatbot_plugin/demo_version2/index.html" />
     <configuration name="index.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/front_end_chatbot_plugin/demo_version/index.html" />
     <configuration name="index.html (3)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/front_end_chatbot_plugin/hailey_version/index.html" />
     <configuration name="index.html (4)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/front_end_chatbot_plugin/chinese_version/index.html" />
-    <configuration name="index.html (5)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/front_end_chatbot_plugin/index.html" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/front_end_chatbot_plugin/hailey_version/index.html" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/front_end_chatbot_plugin/demo_version/index.html" />
     <list>
       <item itemvalue="JavaScript Debug.index.html (2)" />
       <item itemvalue="JavaScript Debug.index.html" />
-      <item itemvalue="JavaScript Debug.index.html (5)" />
       <item itemvalue="JavaScript Debug.index.html (3)" />
       <item itemvalue="JavaScript Debug.index.html (4)" />
+      <item itemvalue="JavaScript Debug.index.html (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html (3)" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html (4)" />
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.index.html (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -336,18 +333,18 @@
       <workItem from="1532677054138" duration="9825000" />
       <workItem from="1532916471955" duration="14371000" />
       <workItem from="1533003065521" duration="1388000" />
-      <workItem from="1533005268409" duration="15244000" />
+      <workItem from="1533005268409" duration="20059000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137574000" />
+    <option name="totallyTimeSpent" value="142389000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="855" y="23" width="798" height="981" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25611326" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25611326" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5054348" side_tool="true" weight="0.22171946" />
@@ -355,8 +352,8 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32918552" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49456522" visible="true" weight="0.18548387" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39932126" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49456522" weight="0.18548387" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3986175" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -378,81 +375,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/english_version/css/says.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chinese_version/css/input.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chinese_version/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="46" column="30" lean-forward="true" selection-end-line="97" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/english_version/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="97" column="22" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/english_version/js/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chinese_version/image/Background.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/english_version/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chinese version/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/chinese version/js/index.js" />
-    <entry file="file://$PROJECT_DIR$/english_version/css/frame.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="84" column="24" lean-forward="true" selection-end-line="94" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/english_version/js/Bubbles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="168" column="8" selection-start-line="168" selection-start-column="8" selection-end-line="168" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chinese_version/js/Bubbles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="129" column="64" lean-forward="true" selection-start-line="129" selection-start-column="64" selection-end-line="129" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chinese_version/js/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo version/css/style.css" />
     <entry file="file://$PROJECT_DIR$/demo version/js/index.js" />
     <entry file="file://$PROJECT_DIR$/particles-js-demo/js/index.js" />
@@ -528,20 +450,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo_version/css/frame.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_version/css/input.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo_version/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -556,63 +464,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hailey_version/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hailey_version/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="60" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_version/js/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_version/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-155">
-          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hailey_version/css/reply.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="80" column="23" lean-forward="true" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hailey_version/css/says.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        <state relative-caret-position="225">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hailey_version/js/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="149" selection-start-column="149" selection-end-column="149" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hailey_version/js/Bubbles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="140" column="33" selection-start-line="140" selection-start-column="33" selection-end-line="140" selection-end-column="33" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -623,27 +495,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hailey_version/css/frame.css">
+    <entry file="file://$PROJECT_DIR$/demo_version/js/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="106" column="16" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
+        <state relative-caret-position="180">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hailey_version/index.html">
+    <entry file="file://$PROJECT_DIR$/demo_version/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        <state relative-caret-position="203">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo_version/js/Bubbles.js">
+    <entry file="file://$PROJECT_DIR$/chinese_version/js/Bubbles.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="127" column="50" selection-start-line="127" selection-start-column="50" selection-end-line="127" selection-end-column="50" />
+        <state relative-caret-position="292">
+          <caret line="131" column="8" selection-start-line="131" selection-start-column="8" selection-end-line="131" selection-end-column="69" />
           <folding>
             <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
@@ -651,10 +524,134 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo_version/js/Bubbles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="121" column="16" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_version/css/frame.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_version2/js/config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_version/css/input.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hailey_version/js/Bubbles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="133" column="43" selection-start-line="133" selection-start-column="43" selection-end-line="133" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_version2/js/Bubbles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="126" column="45" selection-start-line="126" selection-start-column="45" selection-end-line="126" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hailey_version/css/says.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="18" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_version2/css/says.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hailey_version/css/reply.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="95" column="16" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_version2/css/reply.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="82" column="19" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_version2/css/frame.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="115" column="17" lean-forward="true" selection-start-line="115" selection-start-column="17" selection-end-line="115" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hailey_version/css/frame.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hailey_version/css/input.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        <state relative-caret-position="582">
+          <caret line="157" selection-start-line="157" selection-end-line="157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_version2/css/input.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="126" column="30" lean-forward="true" selection-start-line="126" selection-start-column="30" selection-end-line="126" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_version2/image/logo.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_version2/image/Background.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_version2/image/cross.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_version2/image/Icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_version2/image/Icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_version2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
