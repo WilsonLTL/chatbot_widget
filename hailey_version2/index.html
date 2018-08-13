@@ -16,7 +16,7 @@
   <div class="custom-border">
     <div class="custom-nav">
       <button class="exist-button" type="button">
-        <img width="24" height="24" src="image/cross.png">
+        <img src="image/Chatbots_Close.png">
       </button>
       <label>Chat with us</label>
     </div>
@@ -33,10 +33,9 @@
 <script src="js/Bubbles.js"></script>
 <script src="js/script.js"></script>
 <script>
-  $("#button").click(function(){
-      console.log("click")
-      $('#widget').toggle('on');
-  })
+    initSetting()
+    $("#button").click(function(){
+      $(".custom-border").toggle('on');
+    })
 </script>
-
 </html>

@@ -137,7 +137,7 @@ p {
     .chat-box-container.show {
         height:auto;
         bottom:10px;
-    }s
+    }
 }
 @media only screen and (max-device-width : 340px){
     .chat-widget-wrapper {

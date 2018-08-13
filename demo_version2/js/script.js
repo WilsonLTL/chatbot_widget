@@ -7,7 +7,7 @@ $(function() {
         console.log(url)
     })
 
-    let chatWidget = (".chat-widget-container"),
+    let chatWidget = (".chat-widget-avatar"),
         chatBox = $(".chat-box-container"),
         back = $("#back");
 

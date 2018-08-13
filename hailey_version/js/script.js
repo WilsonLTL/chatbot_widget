@@ -1,3 +1,26 @@
+$(function() {
+    axios.get("https://api.ipify.org?format=json").then(function (res) {
+        url = "http://ec2-13-250-42-135.ap-southeast-1.compute.amazonaws.com/DemoGLSHK?Key=0bb18fb84259c567c723ba96188f47ac&"+res.data.ip+"&Say="
+        console.log(url)
+    })
+
+    let chatWidget = (".chat-widget-avatar"),
+        chatBox = $(".chat-box-container"),
+        back = $("#back");
+
+    $(chatWidget).click(function(e){
+
+        e.preventDefault();
+
+        $(chatBox).toggleClass("show");
+        $(chatWidget).toggleClass("open");
+    })
+
+    $(back).click(function(e){
+        $(chatWidget).click()
+    })
+});
+
 let chatWindow = new Bubbles(document.getElementById("chat"), "chatWindow", {
     inputCallbackFn: function(o) {
 

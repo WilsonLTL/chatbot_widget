@@ -16,6 +16,8 @@ function Bubbles(container, self, options) {
     // 		constructor name during open session.
 
     var nlp_say = function(text) {
+        widget_status = false
+
         data.text=text
         return Promise.resolve(
             axios.get(url+text).then(function (res) {
@@ -26,11 +28,16 @@ function Bubbles(container, self, options) {
                 //     return nlp_noresponse_msg
                 // }
                 if (result["Speech"] !== ""){
+                    widget_status = true
+
                     if (result["ImageURL"] !== ""){
                         return result["Speech"]+"<br ><img style='width:100%;height:100%;margin: 10px 0px 0px 0px;' src="+result["ImageURL"]+"/>"
                     }
+
                     return result["Speech"]
                 }else{
+                    widget_status = true
+
                     return nlp_noresponse_msg
                 }
 
@@ -42,12 +49,15 @@ function Bubbles(container, self, options) {
     }
 
     var nlp_reply = function(text) {
+        widget_status = false
+
         data.text=text
         return Promise.resolve(
             axios.get(url+text).then(function (res) {
                 result = res.data
                 console.log(result)
 
+                widget_status = true
                 if (result["Speech"] !== ""){
                     console.log(result["Reply"])
                     return result["Reply"]
@@ -123,15 +133,11 @@ function Bubbles(container, self, options) {
         inputWrap.className = "input-wrap"
         var inputText = document.createElement("textarea")
         var submitButton = document.createElement("button")
-        var buttonImage = document.createElement("img")
         submitButton.setAttribute("id","enterText")
-        submitButton.setAttribute("style","margin:0px 0px 10px 0px; width:calc(0% + 50px);height:55px;background-color:white;border-radius:10px;border: .1px solid #DCDCDC;box-shadow:2px 2px 1px 1px rgba(20%,20%,40%,0.5);")
-        buttonImage.setAttribute("src","./image/send.png")
-        buttonImage.setAttribute("style","width:100%;height:70%;")
+        submitButton.setAttribute("style","margin:0px 0px 10px 0px; width:20%;height:55px;background-color:transparent;border:.1px solid transparent;background-image:url('image/send.png');background-repeat: no-repeat;background-position: center;")
         inputText.setAttribute("placeholder", "Ask me anything...")
+        inputText.setAttribute("style","margin:10px 0px -10px 10px;background-color:transparent;")
         inputText.setAttribute("id","inputTextArea")
-        inputText.setAttribute("style","margin:10px 10px -10px 10px")
-        submitButton.appendChild(buttonImage)
         submitButton.addEventListener("click", function(e) {
             let value = inputText.value
 
@@ -178,7 +184,6 @@ function Bubbles(container, self, options) {
                 lastBubble.classList.contains("reply") &&
                 !lastBubble.classList.contains("reply-freeform")
                     ? lastBubble.classList.add("bubble-hidden")
-                    ? lastBubele.classList.add("bubble-hidden")
                     : false
                 console.log("calling:",this.value)
                 // addBubble(
@@ -354,6 +359,9 @@ function Bubbles(container, self, options) {
                 ;(function(el) {
                     if (!el.parentNode.parentNode.classList.contains("reply-freeform"))
                         el.style.width = el.offsetWidth - sidePadding * 2 + widerBy + "px"
+                        console.log("el.offsetWidth ",el.offsetWidth )
+                        console.log("sidePadding ",sidePadding )
+                         console.log("widerBy ",widerBy )
                 })(bubbleButtons[z])
             }
             bubble.addEventListener("click", function() {

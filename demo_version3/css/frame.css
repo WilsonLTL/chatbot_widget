@@ -118,8 +118,12 @@ p {
     border: #DCDCDC solid 1px;
     background-image: url('../image/Background.png');
     box-shadow:2px 2px 4px #808080;
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -ms-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
 }
-
 
 .custom-nav label {
     color: white;
